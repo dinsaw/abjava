@@ -1,7 +1,7 @@
 /**
  * This program explains one of the simplest and very inefficient 
  * sorting technique - bubble sort.
- * sorts an array in ascending order. 
+ * sorts an array in ascending order.
  */
 package in.blogspot.abjava.sorting;
 
