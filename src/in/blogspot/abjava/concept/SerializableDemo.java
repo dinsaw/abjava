@@ -17,16 +17,16 @@ public class SerializableDemo {
     public static final String FILE_NAME = "stud.data";
 
     public static void main(String... args) throws IOException, ClassNotFoundException {
-        Student student = new Student();
-        student.setName("Din");
-        student.setRollNum(1);
+        Student student = new Student("Din",1,"CS");
         System.out.println("student = " + student);
 
+        //Serializing object
         FileOutputStream fos = new FileOutputStream(FILE_NAME);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         oos.writeObject(student);
         System.out.println("Object saved.");
 
+        //De serializing object
         FileInputStream fis = new FileInputStream(FILE_NAME);
         ObjectInputStream ois = new ObjectInputStream(fis);
         Student student1 = (Student) ois.readObject();
@@ -40,8 +40,23 @@ public class SerializableDemo {
  * A POJO class which implements Serializable interface.
  */
 class Student implements Serializable {
+    /**
+     * serialVersionUID defines class version. Whenever you will modify the class Student
+     * it is better to change serialVersionUID.
+     */
+    private static final long serialVersionUID = 1L;
     private String name;
     private int rollNum;
+    /**
+     * course will not be serialized.
+     */
+    private transient String course;
+
+    Student(String name, int rollNum, String course) {
+        this.name = name;
+        this.rollNum = rollNum;
+        this.course = course;
+    }
 
     public int getRollNum() {
         return rollNum;
@@ -64,6 +79,7 @@ class Student implements Serializable {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", rollNum=" + rollNum +
+                ", course='" + course + '\'' +
                 '}';
     }
 }
