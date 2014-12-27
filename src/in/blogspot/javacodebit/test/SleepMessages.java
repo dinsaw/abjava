@@ -1,7 +1,7 @@
 /**
  * 
  */
-package in.blogspot.abjava.test;
+package in.blogspot.javacodebit.test;
 
 /**
  * @author dsawant

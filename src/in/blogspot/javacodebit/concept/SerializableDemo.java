@@ -1,4 +1,4 @@
-package in.blogspot.abjava.concept;
+package in.blogspot.javacodebit.concept;
 
 
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 /**
  * Created by dsawant on 12/13/2014.
- * for all example source code visit : https://github.com/dinsaw/abjava
+ * for all example source code visit : https://github.com/dinsaw/javacodebit
  */
 public class SerializableDemo {
 

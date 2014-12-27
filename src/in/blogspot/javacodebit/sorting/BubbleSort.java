@@ -3,7 +3,7 @@
  * sorting technique - bubble sort.
  * sorts an array in ascending order.
  */
-package in.blogspot.abjava.sorting;
+package in.blogspot.javacodebit.sorting;
 
 
 /**

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package in.blogspot.abjava;
+package in.blogspot.javacodebit;
 
 import java.text.DecimalFormat;
 

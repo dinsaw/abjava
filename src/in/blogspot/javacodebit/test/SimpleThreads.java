@@ -1,4 +1,4 @@
-package in.blogspot.abjava.test;
+package in.blogspot.javacodebit.test;
 
 public class SimpleThreads {
 

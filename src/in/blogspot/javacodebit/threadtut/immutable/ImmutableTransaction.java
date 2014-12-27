@@ -1,7 +1,7 @@
 /**
  * 
  */
-package in.blogspot.abjava.threadtut.immutable;
+package in.blogspot.javacodebit.threadtut.immutable;
 
 /**
  * @author dsawant

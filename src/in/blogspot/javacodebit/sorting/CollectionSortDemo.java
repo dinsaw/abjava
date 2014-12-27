@@ -1,7 +1,7 @@
 /**
  * Following program demonstrates use of Comparable and Comparator in java
  */
-package in.blogspot.abjava.sorting;
+package in.blogspot.javacodebit.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package in.blogspot.abjava.concept;
+package in.blogspot.javacodebit.concept;
 
 import java.awt.Point;
 

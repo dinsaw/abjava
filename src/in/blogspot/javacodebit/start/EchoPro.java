@@ -1,4 +1,4 @@
-package in.blogspot.abjava.start;
+package in.blogspot.javacodebit.start;
 
 public class EchoPro {
 
